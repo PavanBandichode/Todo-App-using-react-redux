@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  text-align: center;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+li {
+  list-style: none;
+  width: 100%;
+  padding: 1rem 0.8rem;
+  margin: 0.6rem 0;
+  background: linear-gradient(to right, rgb(225, 165, 225), rgb(182, 243, 182));
+}
+.input {
+  padding: 0.6rem 0.8rem;
+  font-size: 1.4rem;
+  width: 100%;
+}
+.flex {
+  display: flex;
+}
+.justify-content {
+  justify-content: space-between;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-size: 1.2rem;
+  color: black;
+  margin-left: 0.8rem;
+}
